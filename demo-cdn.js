@@ -2,7 +2,7 @@
 
 
 let UnOrderedList = () => {
-    return (<ul><li>One</li><li>Two</li></ul>);
+    return (<div><ul><li>One</li><li>Two</li></ul></div>);
 };
 
 let NavBar = () => {
@@ -44,7 +44,9 @@ let NavBar = () => {
         </nav>
     );
 }
-ReactDOM.render(<div> <NavBar /> <UnOrderedList></UnOrderedList> </div>, document.querySelector("#root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<div> <NavBar /> <UnOrderedList></UnOrderedList> </div>);
+// ReactDOM.render(<div> <NavBar /> <UnOrderedList></UnOrderedList> </div>, document.querySelector("#root"));
 
 // let div = document.createElement("div");
 // div.textContent = "Hello vanilla JS";

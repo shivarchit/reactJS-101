@@ -1,0 +1,24 @@
+{
+  "name": "BasicProject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivarchit/reactJS-101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivarchit/reactJS-101/issues"
+  },
+  "homepage": "https://github.com/shivarchit/reactJS-101#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^18.1.0"
+  }
+}
